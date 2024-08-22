@@ -73,7 +73,7 @@ const recommendedChannels = [
 
 const Aside = () => {
     return (
-        <aside className="bg-zinc-800 text-white w-72 py-4 px-2 overflow-y-auto h-screen">
+        <aside className="bg-zinc-800 text-white w-72 py-4 px-2 overflow-y-auto h-screen hidden md:block">
             {/* For You Section */}
             <div className="mb-4 ms-3">
                 <div className="flex justify-between">
