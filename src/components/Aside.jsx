@@ -76,7 +76,10 @@ const Aside = () => {
         <aside className="bg-zinc-800 text-white w-72 py-4 px-2 overflow-y-auto h-screen">
             {/* For You Section */}
             <div className="mb-4 ms-3">
-                <h2 className="text-sm font-semibold text-white">FOR YOU</h2>
+                <div className="flex justify-between">
+                <h2 className="text-lg font-semibold text-white">For You</h2>
+                <svg className="size-5 mt-1" width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" role="presentation" aria-hidden="true" focusable="false" class="ScIconSVG-sc-1q25cff-1 jpczqG"><g><path fill="#FFFFFF" d="M16 16V4h2v12h-2zM6 9l2.501-2.5-1.5-1.5-5 5 5 5 1.5-1.5-2.5-2.5h8V9H6z"></path></g></svg>
+                </div>
                 <div className="mt-2">
                     <div className="flex items-center mb-2">
                         <img
@@ -91,7 +94,7 @@ const Aside = () => {
                 </div>
             </div>
 
-            <div className="border-b border-gray-700 mb-4 ms-3">
+            <div className="border-b border-t pt-5 pb-2 border-black mb-4 px-1 bg-zinc-900/55 w-auto">
                 <div className="flex gap-3 justify-between">
                     <span className='text-black rounded-full mt-[6px] bg-pink-400 w-11 h-5 font-semibold text-[10px] flex items-center justify-center'>
                         NEW
