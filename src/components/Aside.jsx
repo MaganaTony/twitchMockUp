@@ -73,7 +73,7 @@ const recommendedChannels = [
 
 const Aside = () => {
     return (
-        <aside className="bg-zinc-800 text-white w-72 py-4 px-2 overflow-y-auto h-screen hidden md:block">
+        <aside className="bg-zinc-800 text-white w-72 py-4 px-2 overflow-y-auto h-screen hidden lg:block">
             {/* For You Section */}
             <div className="mb-4 ms-3">
                 <div className="flex justify-between">
@@ -100,7 +100,7 @@ const Aside = () => {
                         NEW
                     </span>
 
-                    <span className="text-white font-bold text-lg mb-4 -ml-16">
+                    <span className="text-white font-bold text-lg mb-4">
                         Sort Options
                     </span>
                     <svg
